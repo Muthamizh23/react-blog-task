@@ -1,0 +1,61 @@
+body{
+  background-color: rgb(243, 195, 225);
+}
+.card {
+    display: flex;
+    height: 15rem; 
+    text-align: justify;
+    position: relative;
+    background-color: rgb(209, 153, 209);
+    box-shadow: 10px 10px 5px rgb(184, 182, 182);
+    border-radius: 5px;
+    color: rgb(15, 10, 10);
+    padding: 20px;
+    margin: 30px;
+  }
+  .head-head{
+    text-align: center;
+  }
+  .head-para{
+    text-align: center;
+  }
+  .head-box{
+    background-color: rgb(192, 125, 192) ;
+    box-shadow: 5px 5px 5px rgb(117, 116, 116);
+    border-radius: 5px;
+    margin: 30px;
+    padding: 10px;
+  }
+  nav a{
+    margin-right: 100px;
+  }
+  /* Navbar.css */
+  nav {
+    display: flex;
+    justify-content:flex-end;
+    border-radius: 5px; /* Optional: Add rounded corners */
+    box-shadow: 5px 5px 5px rgb(117, 116, 116);
+    padding: 20px; 
+    margin: 30px;
+    background-color:rgb(231, 175, 231);
+  }
+  .card-title{
+    font-size: 20px;
+  }
+  .card-title:hover{
+    color: blue;
+    text-decoration: underline;
+  }
+  .card-subhead{
+    font-size: 20px;
+  }
+  .card-subhead:hover{
+    color: blueviolet;
+    text-decoration: underline;
+  }
+  .card-img-top {
+    padding: 10px;
+    width: 20%;
+    height: 200px; 
+  }
+  
